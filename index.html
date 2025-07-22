@@ -5,44 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chiranth H J | Backend Developer</title>
 
-  <!-- Add a favicon (optional) -->
-  <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
-
-  <!-- Add Google Fonts (optional) -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-
-  <!-- Basic Styles -->
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      color: #fff;
-      background-image: url('/assets/images/adrien.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      backdrop-filter: brightness(0.4);
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.5;
-    }
-  </style>
+  <!-- Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  <div class="content">
+  <header id="header">
+    <a href="#" class="home-link">
+      <span class="letter-c">C</span><span class="letter-j">J</span>
+    </a>
+  </header>
+
+  <!-- Fixed Background -->
+  <img src="assets/images/adrien.jpg" class="bg-image" alt="Background" />
+
+  <!-- Hero / Banner -->
+  <section class="main">
     <h1>Hi, I'm Chiranth H J</h1>
-    <p>Backend Developer | Python, PHP | Django, CodeIgniter | REST APIs | PostgreSQL, MySQL</p>
+    <p>Backend Developer</p>
+    <p>Python, PHP | Django, CodeIgniter | REST APIs | PostgreSQL, MySQL</p>
+    <p>Delivering powerful backend systems driven by a passion for solving real-world challenges.</p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/chiranth-h-j-96937a176/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:chiranthkalkattee@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Chiranthkalkatte" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+ <section class="about">
+  <h2>About Me</h2>
+  <div class="about-wrapper">
+    <div class="about-text-block">
+      <p>
+        I'm a dedicated backend developer with expertise in building robust and scalable server-side applications.
+        I specialize in Python, Django, and database optimization, with a strong foundation in web technologies.
+      </p>
+
+      <h3>Experience</h3>
+      <ul class="experience-list">
+        <li>
+          <strong>Software Developer</strong><br />
+          Appiness Interactive Pvt Ltd (July 2022 – Present)<br />
+          ● Worked on scalable backend APIs using Django & CodeIgniter<br />
+          ● Collaborated in Agile teams and managed Jira-based tasks<br />
+          ● Integrated REST APIs, AWS services, and optimized DB performance
+        </li>
+        <!-- You can add more jobs/roles here -->
+      </ul>
+    </div>
+
+    <div class="about-image">
+      <img src="assets/images/profile-dev.svg" alt="Backend Developer" />
+    </div>
   </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills & Technologies</h2>
+    <div class="container">
+      <!-- Add skill icons here -->
+      <div><img src="assets/images/python-original.svg" class="python"><p class="skill-text">Python</p></div>
+      <div><img src="assets/images/logo-django.42234b631760.svg" class="python"><p class="skill-text">Django</p></div>
+      <div><img src="assets/images/php-logo-white.svg" class="python"><p class="skill-text">PHP</p></div>
+      <div><img src="assets/images/ci-logo.svg" class="python"><p class="skill-text">CodeIgniter</p></div>
+      <div><img src="assets/images/postgresql-original.svg" class="python"><p class="skill-text">PostgreSQL</p></div>
+      <div><img src="assets/images/mysql-original.svg" class="python"><p class="skill-text">MySQL</p></div>
+      <div><img src="assets/images/html5-original.svg" class="python"><p class="skill-text">HTML5</p></div>
+      <div><img src="assets/images/css3-original.svg" class="python"><p class="skill-text">CSS3</p></div>
+      <div><img src="assets/images/javascript-original.svg" class="python"><p class="skill-text">JavaScript</p></div>
+      <div><img src="assets/images/aws.svg" class="python"><p class="skill-text">Amazon Web Services</p></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3><span class="footer-name">Chiranth H J</span></h3>
+      <p>Backend Developer specializing in Python, Django, and database optimization</p>
+      <div class="footer-social-icons">
+        <a href="https://github.com/Chiranthkalkatte" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/chiranth-h-j-96937a176/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:chiranthkalkattee@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Get in Touch</h4>
+      <p>Email: <a href="mailto:chiranthkalkattee@gmail.com" style="color: #fff;">chiranthkalkattee@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Chiranth H J. All rights reserved.</p>
+  </div>
+</footer>
+
 </body>
+
 </html>
